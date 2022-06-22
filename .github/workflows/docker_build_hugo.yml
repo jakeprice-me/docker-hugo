@@ -3,6 +3,7 @@ name: Build Hugo Docker Image
 on:
   push:
     branches: [ "master" ]
+    paths: Dockerfile
 
 jobs:
   build-and-push-image:

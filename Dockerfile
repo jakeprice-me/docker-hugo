@@ -1,5 +1,5 @@
 FROM debian:bullseye
-ENV HUGO_VERSION=0.101.0
+ENV HUGO_VERSION=0.107.0
 RUN apt-get update && \
     apt-get install -y wget && \
     addgroup hugo && \

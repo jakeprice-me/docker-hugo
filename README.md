@@ -4,7 +4,7 @@ Docker image for [Hugo](https://gohugo.io/) static site generator.
 
 ## Build
 
-[GitHub Actions](https://github.com/jakeprice-dev/docker-hugo/actions) builds and pushes the image to [DockerHub](https://hub.docker.com/r/jakepricedev/docker-hugo) when a change is detected to the `Dockerfile`.
+[GitHub Actions](https://github.com/jakeprice-dev/docker-hugo/actions) builds and pushes the image to [DockerHub](https://hub.docker.com/r/jakepricedev/docker-hugo) when a change to the repository is detected.
 
 ## Run Hugo
 

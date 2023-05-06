@@ -29,9 +29,9 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
-          tags: 
-            - jakepricedev/docker-hugo:latest
-            - jakepricedev/docker-hugo:0.111.3
+          tags: |
+            jakepricedev/docker-hugo:latest
+            jakepricedev/docker-hugo:0.111.3
 
       - name: Docker Hub Description
         uses: peter-evans/dockerhub-description@v3

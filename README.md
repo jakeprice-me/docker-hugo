@@ -14,6 +14,6 @@ docker run \
     --publish 1313:1313 \
     --volume <hugo-directory>:/home/hugo \
     --interactive --tty \
-    jakepricedev/docker-hugo:0.101.0 server --bind 0.0.0.0
+    jakepricedev/docker-hugo:0.122.0 server --bind 0.0.0.0
 ```
 

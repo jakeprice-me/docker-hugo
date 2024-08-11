@@ -31,7 +31,7 @@ jobs:
           push: true
           tags: |
             jakepricedev/docker-hugo:latest
-            jakepricedev/docker-hugo:0.122.0
+            jakepricedev/docker-hugo:0.131.0
 
       - name: Docker Hub Description
         uses: peter-evans/dockerhub-description@v3
